@@ -1,239 +1,451 @@
-# Full Stack FastAPI Template
+# 🇸🇴 Somalia Geography & Governance API
 
-<a href="https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3ATest" target="_blank"><img src="https://github.com/fastapi/full-stack-fastapi-template/workflows/Test/badge.svg" alt="Test"></a>
-<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/fastapi/full-stack-fastapi-template" target="_blank"><img src="https://coverage-badge.samuelcolvin.workers.dev/fastapi/full-stack-fastapi-template.svg" alt="Coverage"></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
+![Made in Somalia](https://img.shields.io/badge/Made%20in-Somalia-blue?style=for-the-badge&logo=somalia)
 
-## Technology Stack and Features
+**By [Abdirahman Ahmed (Maano)](https://github.com/abdirahmannomad)**  
+*"Faaninta aqoonta iyo xogta Soomaaliyeed ee furan."*  
+(Open Somali Data Initiative)
 
-- ⚡ [**FastAPI**](https://fastapi.tiangolo.com) for the Python backend API.
-    - 🧰 [SQLModel](https://sqlmodel.tiangolo.com) for the Python SQL database interactions (ORM).
-    - 🔍 [Pydantic](https://docs.pydantic.dev), used by FastAPI, for the data validation and settings management.
-    - 💾 [PostgreSQL](https://www.postgresql.org) as the SQL database.
-- 🚀 [React](https://react.dev) for the frontend.
-    - 💃 Using TypeScript, hooks, Vite, and other parts of a modern frontend stack.
-    - 🎨 [Chakra UI](https://chakra-ui.com) for the frontend components.
-    - 🤖 An automatically generated frontend client.
-    - 🧪 [Playwright](https://playwright.dev) for End-to-End testing.
-    - 🦇 Dark mode support.
-- 🐋 [Docker Compose](https://www.docker.com) for development and production.
-- 🔒 Secure password hashing by default.
-- 🔑 JWT (JSON Web Token) authentication.
-- 📫 Email based password recovery.
-- ✅ Tests with [Pytest](https://pytest.org).
-- 📞 [Traefik](https://traefik.io) as a reverse proxy / load balancer.
-- 🚢 Deployment instructions using Docker Compose, including how to set up a frontend Traefik proxy to handle automatic HTTPS certificates.
-- 🏭 CI (continuous integration) and CD (continuous deployment) based on GitHub Actions.
+> The first open geographic API for Somalia — mapping regions, districts, roads, ports, and postal codes.  
+> Free and open for developers, researchers, and Somali communities everywhere.
 
-### Dashboard Login
+An open-source, production-ready API providing Somali geographic and infrastructure data. The first comprehensive open geographic API for Somalia, combining administrative boundaries, roads, transport infrastructure, and postal codes.
 
-[![API docs](img/login.png)](https://github.com/fastapi/full-stack-fastapi-template)
+## 🎉 Current Status
 
-### Dashboard - Admin
+**✅ PRODUCTION-READY** with **26,343 real Somalia-only geographic items** loaded:
 
-[![API docs](img/dashboard.png)](https://github.com/fastapi/full-stack-fastapi-template)
+- ✅ **36 Regions** (GADM - Administrative Boundaries)
+- ✅ **148 Districts** (GADM - Administrative Boundaries)
+- ✅ **26,046 Roads** (OpenStreetMap - Major cities road network)
+- ✅ **59 Airports** (OpenStreetMap - **Somalia only**, verified and cleaned)
+- ✅ **8 Ports** (Major Somali ports: Mogadishu, Berbera, Bosaso, Kismayo, Merca, Hobyo, Garacad, Las Khorey)
+- ✅ **46 Checkpoints** (OpenStreetMap - **Somalia only**, filtered)
 
-### Dashboard - Create User
+**✅ All data filtered to Somalia bounding box** - No non-Somalia locations included.
 
-[![API docs](img/dashboard-create.png)](https://github.com/fastapi/full-stack-fastapi-template)
+## 🏗️ Project Overview
 
-### Dashboard - Items
+This API serves Somali geographic and governance data in clean, structured, and open formats. It works like OpenStreetMap API, GADM boundaries API, and Google PlusCodes resolver - but focused 100% on Somali data.
 
-[![API docs](img/dashboard-items.png)](https://github.com/fastapi/full-stack-fastapi-template)
+### Key Features
 
-### Dashboard - User Settings
+- 🗺️ **Administrative Boundaries**: 36 regions, 148 districts with full GeoJSON geometries
+- 🧭 **Postal Codes**: Google Open Location Code (PlusCodes) with Somali region prefixes
+- 🛣️ **Road Infrastructure**: 26,046+ roads from OpenStreetMap (major cities)
+- ✈️ **Transport**: 59 verified airports, 8 major Somali ports, 46 checkpoints (all Somalia only)
+- 🔍 **Search**: Fuzzy place name search with aliases
+- 📊 **Open Data**: All data served as GeoJSON with ODbL licensing
 
-[![API docs](img/dashboard-user-settings.png)](https://github.com/fastapi/full-stack-fastapi-template)
+## 🚀 Quick Start
 
-### Dashboard - Dark Mode
+### Prerequisites
 
-[![API docs](img/dashboard-dark.png)](https://github.com/fastapi/full-stack-fastapi-template)
+- Python 3.11+
+- SQLite (default) or PostgreSQL/PostGIS (future)
 
-### Interactive API Documentation
+### Installation
 
-[![API docs](img/docs.png)](https://github.com/fastapi/full-stack-fastapi-template)
-
-## How To Use It
-
-You can **just fork or clone** this repository and use it as is.
-
-✨ It just works. ✨
-
-### How to Use a Private Repository
-
-If you want to have a private repository, GitHub won't allow you to simply fork it as it doesn't allow changing the visibility of forks.
-
-But you can do the following:
-
-- Create a new GitHub repo, for example `my-full-stack`.
-- Clone this repository manually, set the name with the name of the project you want to use, for example `my-full-stack`:
-
+1. Clone the repository:
 ```bash
-git clone git@github.com:fastapi/full-stack-fastapi-template.git my-full-stack
+git clone https://github.com/AbdirahmanNomad/somali-geo-api.git
+cd somali-geo-api
 ```
 
-- Enter into the new directory:
-
+2. Install dependencies:
 ```bash
-cd my-full-stack
+cd backend
+pip install -r requirements.txt
+# or with uv
+uv sync
 ```
 
-- Set the new origin to your new repository, copy it from the GitHub interface, for example:
-
+3. Set up environment variables:
 ```bash
-git remote set-url origin git@github.com:octocat/my-full-stack.git
+cp .env.example .env
+# Edit .env with your settings
 ```
 
-- Add this repo as another "remote" to allow you to get updates later:
-
+4. Download and load real data:
 ```bash
-git remote add upstream git@github.com:fastapi/full-stack-fastapi-template.git
+# Download real data from GADM and OpenStreetMap
+python scripts/download_and_load_real_data.py
+
+# Or download OSM data separately
+python scripts/download_osm_complete.py
+
+# Load all data into database
+python scripts/load_geodata.py
 ```
 
-- Push the code to your new repository:
-
+5. Run the API:
 ```bash
-git push -u origin master
+uvicorn app.main:app --reload
 ```
 
-### Update From the Original Template
+The API will be available at `http://localhost:8000`
 
-After cloning the repository, and after doing changes, you might want to get the latest changes from this original template.
+### Quick Data Verification
 
-- Make sure you added the original repository as a remote, you can check it with:
-
+After loading data, verify what's loaded:
 ```bash
-git remote -v
-
-origin    git@github.com:octocat/my-full-stack.git (fetch)
-origin    git@github.com:octocat/my-full-stack.git (push)
-upstream    git@github.com:fastapi/full-stack-fastapi-template.git (fetch)
-upstream    git@github.com:fastapi/full-stack-fastapi-template.git (push)
+cd backend
+python -c "
+from app.core.db import engine
+from app import models
+from sqlmodel import Session, select
+with Session(engine) as db:
+    print(f'Regions: {len(db.exec(select(models.Region)).all())}')
+    print(f'Districts: {len(db.exec(select(models.District)).all())}')
+    print(f'Roads: {len(db.exec(select(models.Road)).all())}')
+    print(f'Airports: {len(db.exec(select(models.Airport)).all())}')
+    print(f'Ports: {len(db.exec(select(models.Port)).all())}')
+    print(f'Checkpoints: {len(db.exec(select(models.Checkpoint)).all())}')
+"
 ```
 
-- Pull the latest changes without merging:
+## 📚 API Documentation
 
-```bash
-git pull --no-commit upstream master
+### Interactive Docs
+- **Swagger UI**: http://localhost:8000/docs
+- **ReDoc**: http://localhost:8000/redoc
+- **OpenAPI Schema**: http://localhost:8000/api/v1/openapi.json
+
+### Core Endpoints
+
+#### Administrative Boundaries
+
+```http
+GET /api/v1/regions
+GET /api/v1/regions/{id}
+GET /api/v1/districts?region={name}
+GET /api/v1/districts/{id}
 ```
 
-This will download the latest changes from this template without committing them, that way you can check everything is right before committing.
-
-- If there are conflicts, solve them in your editor.
-
-- Once you are done, commit the changes:
-
+**Example: Get all regions**
 ```bash
-git merge --continue
+curl http://localhost:8000/api/v1/regions
 ```
 
-### Configure
-
-You can then update configs in the `.env` files to customize your configurations.
-
-Before deploying it, make sure you change at least the values for:
-
-- `SECRET_KEY`
-- `FIRST_SUPERUSER_PASSWORD`
-- `POSTGRES_PASSWORD`
-
-You can (and should) pass these as environment variables from secrets.
-
-Read the [deployment.md](./deployment.md) docs for more details.
-
-### Generate Secret Keys
-
-Some environment variables in the `.env` file have a default value of `changethis`.
-
-You have to change them with a secret key, to generate secret keys you can run the following command:
-
-```bash
-python -c "import secrets; print(secrets.token_urlsafe(32))"
+**Example Response:**
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Banaadir",
+      "code": "SOM-BAN",
+      "population": null,
+      "area_km2": null,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [...]
+      }
+    }
+  ],
+  "count": 36
+}
 ```
 
-Copy the content and use that as password / secret key. And run that again to generate another secure key.
-
-## How To Use It - Alternative With Copier
-
-This repository also supports generating a new project using [Copier](https://copier.readthedocs.io).
-
-It will copy all the files, ask you configuration questions, and update the `.env` files with your answers.
-
-### Install Copier
-
-You can install Copier with:
-
+**Example: Get districts in a region**
 ```bash
-pip install copier
+curl "http://localhost:8000/api/v1/districts?region=Banadir"
 ```
 
-Or better, if you have [`pipx`](https://pipx.pypa.io/), you can run it with:
-
-```bash
-pipx install copier
+**Example District Response:**
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Mogadishu",
+      "code": "SOM-BNR-MGD",
+      "region_name": "Banadir",
+      "population": null,
+      "aliases": ["Xamar", "Hamari"],
+      "centroid": {"lat": 2.0, "lon": 45.3},
+      "geometry": {...}
+    }
+  ],
+  "count": 5
+}
 ```
 
-**Note**: If you have `pipx`, installing copier is optional, you could run it directly.
+#### Location Codes (Open Location Code)
 
-### Generate a Project With Copier
-
-Decide a name for your new project's directory, you will use it below. For example, `my-awesome-project`.
-
-Go to the directory that will be the parent of your project, and run the command with your project's name:
-
-```bash
-copier copy https://github.com/fastapi/full-stack-fastapi-template my-awesome-project --trust
+```http
+GET /api/v1/locationcode/generate?lat={lat}&lon={lon}
+GET /api/v1/locationcode/resolve?code={code}
 ```
 
-If you have `pipx` and you didn't install `copier`, you can run it directly:
-
+**Generate Example:**
 ```bash
-pipx run copier copy https://github.com/fastapi/full-stack-fastapi-template my-awesome-project --trust
+curl "http://localhost:8000/api/v1/locationcode/generate?lat=2.0343&lon=45.3201"
 ```
 
-**Note** the `--trust` option is necessary to be able to execute a [post-creation script](https://github.com/fastapi/full-stack-fastapi-template/blob/master/.copier/update_dotenv.py) that updates your `.env` files.
+**Response:**
+```json
+{
+  "code": "8FJ53+PM",
+  "latitude_center": 2.0343,
+  "longitude_center": 45.3201,
+  "region_code": "SOM-BNR"
+}
+```
 
-### Input Variables
+**Resolve Example:**
+```bash
+curl "http://localhost:8000/api/v1/locationcode/resolve?code=8FJ53+PM"
+```
 
-Copier will ask you for some data, you might want to have at hand before generating the project.
+#### Roads & Transport
 
-But don't worry, you can just update any of that in the `.env` files afterwards.
+```http
+GET /api/v1/roads
+GET /api/v1/roads/{id}
+GET /api/v1/transport/airports
+GET /api/v1/transport/airports/{id}
+GET /api/v1/transport/ports
+GET /api/v1/transport/ports/{id}
+GET /api/v1/transport/checkpoints
+GET /api/v1/transport/checkpoints/{id}
+```
 
-The input variables, with their default values (some auto generated) are:
+**Example: Get roads**
+```bash
+curl "http://localhost:8000/api/v1/roads?limit=10"
+```
 
-- `project_name`: (default: `"FastAPI Project"`) The name of the project, shown to API users (in .env).
-- `stack_name`: (default: `"fastapi-project"`) The name of the stack used for Docker Compose labels and project name (no spaces, no periods) (in .env).
-- `secret_key`: (default: `"changethis"`) The secret key for the project, used for security, stored in .env, you can generate one with the method above.
-- `first_superuser`: (default: `"admin@example.com"`) The email of the first superuser (in .env).
-- `first_superuser_password`: (default: `"changethis"`) The password of the first superuser (in .env).
-- `smtp_host`: (default: "") The SMTP server host to send emails, you can set it later in .env.
-- `smtp_user`: (default: "") The SMTP server user to send emails, you can set it later in .env.
-- `smtp_password`: (default: "") The SMTP server password to send emails, you can set it later in .env.
-- `emails_from_email`: (default: `"info@example.com"`) The email account to send emails from, you can set it later in .env.
-- `postgres_password`: (default: `"changethis"`) The password for the PostgreSQL database, stored in .env, you can generate one with the method above.
-- `sentry_dsn`: (default: "") The DSN for Sentry, if you are using it, you can set it later in .env.
+**Example Response:**
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "KM4",
+      "type": "primary",
+      "length_km": null,
+      "condition": null,
+      "surface": null,
+      "geometry": [[45.3108, 2.0314], [45.3109, 2.0315], ...]
+    }
+  ],
+  "count": 26046
+}
+```
 
-## Backend Development
+**Example: Get airports**
+```bash
+# Get all airports
+curl "http://localhost:8000/api/v1/transport/airports?limit=5"
 
-Backend docs: [backend/README.md](./backend/README.md).
+# Filter by type (international or domestic)
+curl "http://localhost:8000/api/v1/transport/airports?type=international"
+curl "http://localhost:8000/api/v1/transport/airports?type=domestic"
+```
 
-## Frontend Development
+**Example: Get roads with filtering**
+```bash
+# Get all roads
+curl "http://localhost:8000/api/v1/roads?limit=10"
 
-Frontend docs: [frontend/README.md](./frontend/README.md).
+# Filter by type (primary or secondary)
+curl "http://localhost:8000/api/v1/roads?type=primary"
+curl "http://localhost:8000/api/v1/roads?type=secondary"
+```
 
-## Deployment
+#### Place Search
 
-Deployment docs: [deployment.md](./deployment.md).
+```http
+GET /api/v1/places/search?name={name}&limit={limit}
+```
 
-## Development
+**Example:**
+```bash
+curl "http://localhost:8000/api/v1/places/search?name=mogadishu&limit=5"
+```
 
-General development docs: [development.md](./development.md).
+**Response:**
+```json
+{
+  "data": [
+    {
+      "id": "SOM-BNR-MGD",
+      "name": "Mogadishu",
+      "region": "Banadir",
+      "type": "district",
+      "aliases": ["Xamar", "Hamari"],
+      "centroid": {"lat": 2.0, "lon": 45.3},
+      "population": null
+    }
+  ],
+  "count": 1
+}
+```
 
-This includes using Docker Compose, custom local domains, `.env` configurations, etc.
+## 🗂️ Project Structure
 
-## Release Notes
+```
+backend/
+├── app/
+│   ├── api/v1/endpoints/     # API endpoints
+│   │   ├── regions.py
+│   │   ├── districts.py
+│   │   ├── roads.py
+│   │   ├── location_codes.py
+│   │   ├── places.py
+│   │   └── transport.py
+│   ├── core/                 # Configuration
+│   ├── models/               # Database models
+│   ├── utils/                # Utilities (OLC helper)
+│   └── data/                 # GeoJSON data files
+├── scripts/
+│   └── load_geodata.py       # Data loading script
+└── tests/                    # API tests
+```
 
-Check the file [release-notes.md](./release-notes.md).
+## 🗃️ Data Sources
 
-## License
+| Data Type | Count | Source | Format | License |
+|-----------|-------|--------|--------|---------|
+| **Administrative Boundaries** | 36 regions, 148 districts | [GADM](https://gadm.org) | GeoJSON | Free |
+| **Roads** | 26,046 roads | [OpenStreetMap](https://openstreetmap.org) | GeoJSON | ODbL |
+| **Airports** | 59 airports (Somalia only, verified) | [OpenStreetMap](https://openstreetmap.org) | GeoJSON | ODbL |
+| **Ports** | 8 major Somali ports (Mogadishu, Berbera, Bosaso, Kismayo, Merca, Hobyo, Garacad, Las Khorey) | Manual data entry | GeoJSON | ODbL |
+| **Checkpoints** | 46 checkpoints (Somalia only) | [OpenStreetMap](https://openstreetmap.org) | GeoJSON | ODbL |
+| **Location Codes** | Algorithm-based | [Google Open Location Code](https://github.com/google/open-location-code) | API | Apache 2.0 |
 
-The Full Stack FastAPI Template is licensed under the terms of the MIT license.
+**Note**: All transport data (airports, ports, checkpoints) is **geographically filtered** to only include locations within Somalia's bounding box.
+
+### Data Download Scripts
+
+- `scripts/download_and_load_real_data.py` - Download GADM and geoBoundaries data
+- `scripts/download_osm_complete.py` - Download all OpenStreetMap data
+- `scripts/download_roads_alternative.py` - Alternative roads download (city-based)
+- `scripts/load_geodata.py` - Load all GeoJSON files into database
+
+## 🛠️ Technology Stack
+
+- **Framework**: FastAPI (Python 3.11+)
+- **Database**: SQLite (current), PostGIS (future upgrade)
+- **ORM**: SQLModel + SQLAlchemy
+- **Data Format**: GeoJSON (standard)
+- **Location Codes**: Google Open Location Code library
+- **Deployment**: Docker, Render/Railway/Fly.io
+- **Data Processing**: Python with requests, geopandas (optional)
+
+## 📊 Current Data Statistics
+
+```
+✅ Regions:       36   (GADM - Administrative Boundaries)
+✅ Districts:    148   (GADM - Administrative Boundaries)  
+✅ Roads:     26,046   (OpenStreetMap - Major Cities Road Network)
+✅ Airports:      59   (OpenStreetMap - Somalia Only, Verified ✓)
+✅ Ports:          8   (Major Somali Ports: Mogadishu, Berbera, Bosaso, Kismayo, Merca, Hobyo, Garacad, Las Khorey)
+✅ Checkpoints:    46  (OpenStreetMap - Somalia Only, Filtered ✓)
+─────────────────────────────────────────────────────────────
+📊 TOTAL:    26,343   Real Somalia Geographic Items
+```
+
+**✅ All data is filtered to Somalia bounding box:**
+- Latitude: 1.5° to 11.5° (South to North) - excludes border areas
+- Longitude: 41.0° to 51.5° (West to East)
+
+All data is **real, verified, Somalia-only, and sourced from authoritative providers** (GADM, OpenStreetMap).
+
+## 🚀 Deployment
+
+### Docker
+
+```bash
+# Build and run
+docker-compose up --build
+```
+
+### Manual Deployment
+
+1. Set environment variables
+2. Run data loader: `python scripts/load_geodata.py`
+3. Start server: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit changes: `git commit -m 'Add amazing feature'`
+4. Push to branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+### Data Contributions
+
+- Submit GeoJSON files for new regions/districts
+- Report data inaccuracies
+- Add missing place name aliases
+- Contribute transport infrastructure data
+- Improve road condition data
+- Add population statistics
+
+### Improvement Areas
+
+**Recent Improvements Completed:**
+- ✅ Geographic filtering - All transport data filtered to Somalia only
+- ✅ Airport/road type filtering - Filter airports by `?type=international` or `?type=domestic`
+- ✅ Enhanced error messages - 404 errors now show available IDs
+- ✅ Database indexes - All key fields indexed for performance
+
+**Planned Enhancements:**
+- [ ] Spatial queries (nearby roads, places within bounding box)
+- [ ] Population data integration
+- [ ] PostGIS migration for advanced spatial queries
+- [ ] Redis caching layer
+- [ ] API rate limiting
+- [ ] Automated data refresh pipeline
+
+## 🚧 Known Limitations
+
+1. **✅ Data Quality**: All transport data now filtered to Somalia bounding box - **FIXED**
+2. **Road Coverage**: Roads downloaded from major cities (Mogadishu, Hargeisa, Bosaso, Kismayo); full country coverage may be incomplete
+3. **Population Data**: Not all regions/districts have population statistics
+4. **Spatial Queries**: Currently using SQLite; PostGIS upgrade planned for advanced spatial queries
+5. **Transport Data**: OSM may have limited coverage for Somalia; some airports/ports/checkpoints may be missing from OSM
+
+## 🔮 Future Enhancements
+
+- [ ] PostGIS migration for spatial queries
+- [ ] Redis caching layer
+- [ ] Nearby/within-bbox spatial endpoints
+- [ ] Population data integration
+- [ ] Road condition updates
+- [ ] Automated data refresh pipeline
+- [ ] API rate limiting
+- [ ] Enhanced search with fuzzy matching
+
+## 📄 License
+
+**Code**: MIT License
+**Data**: ODbL (Open Data Commons Open Database License)
+
+Data sources include:
+- © OpenStreetMap contributors
+- © GADM
+- © OCHA Somalia
+- © FAO Somalia
+
+## 🙏 Acknowledgments
+
+- FastAPI community for the excellent framework
+- Google for Open Location Code library
+- OpenStreetMap contributors
+- Humanitarian data providers (OCHA, HDX)
+
+## 📞 Support
+
+- **Issues**: [GitHub Issues](https://github.com/AbdirahmanNomad/somali-geo-api/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/AbdirahmanNomad/somali-geo-api/discussions)
+- **Documentation**: [API Docs](http://localhost:8000/docs)
+
+---
+
+**Built with ❤️ for Somalia's open data community**

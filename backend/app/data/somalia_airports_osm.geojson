@@ -1,0 +1,1518 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scusciuban Airport",
+        "iata": "CMS",
+        "icao": "HCMS",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.2032001,
+          10.3138392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bardera Airport",
+        "iata": "BSY",
+        "icao": "HCMD",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.3094194,
+          2.3328283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hulugho Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.050022,
+          -1.1515783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rhamu Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.2240451,
+          3.9250184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Geladi Airport",
+        "iata": "GLC",
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.4213982,
+          6.9844398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kelafo East Airport",
+        "iata": "LFO",
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3496766,
+          5.6572136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alula Airport \u0645\u0637\u0627\u0631 \u0639\u0644\u0648\u0644\u0629",
+        "iata": "ALU",
+        "icao": "HCMA",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.7496806,
+          11.9590445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "\u0645\u0637\u0627\u0631 \u0643\u0627\u0646\u062f\u0627\u0644\u0629",
+        "iata": "CXN",
+        "icao": "HCMC",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.9105124,
+          11.4957059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown Airport",
+        "iata": "ERA",
+        "icao": "HCMU",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.3879814,
+          10.6420505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A\u00e9rodrome de Moucha \u0645\u0637\u0627\u0631 \u0645\u0648\u0634\u0627",
+        "iata": "MHI",
+        "icao": "HDMO",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.2103981,
+          11.7301982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shilavo Airport",
+        "iata": "HIL",
+        "icao": "HASL",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7623293,
+          6.0781498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandera Airport",
+        "iata": "NDE",
+        "icao": "HKMA",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.8433732,
+          3.9337923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandera",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.8399477,
+          3.9304806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A\u00e9rodrome d'Hadla \u0645\u0637\u0627\u0631 \u0647\u062f\u0644",
+        "iata": null,
+        "icao": "Z09C",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9683993,
+          11.0436612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eyl Airport",
+        "iata": "HCM",
+        "icao": "HCME",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.8246582,
+          8.1076814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7994713,
+          6.0654837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Khoreh Airport",
+        "iata": "LKR",
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2080558,
+          11.1707986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garbaharey Airfield",
+        "iata": "GBM",
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.2127663,
+          3.3226676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warder Airport",
+        "iata": "WRA",
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3371073,
+          6.9755902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garacad Airstrip",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2499193,
+          6.8795047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Anod Airport",
+        "iata": null,
+        "icao": "HCMP",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.3428241,
+          8.5661591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holhol",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.0710411,
+          11.321442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Randa",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.6262235,
+          11.7996416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ceel Barde Airstrip",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.6658047,
+          4.8299413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eldher Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.1729535,
+          3.8429166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamaame Airstrip",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.7579404,
+          0.0608723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulo-Burto Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5120421,
+          3.8727092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandarbeyla Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.7439153,
+          9.4652141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heemo Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5255287,
+          7.1331321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uadan Highway Airstrip",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.228771,
+          1.97559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhoobley Airstrip",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.9971861,
+          0.4068483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abudwak Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.1941227,
+          6.1806399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "\u12a0\u1263 \u1324\u1293 \u12f0\u1303\u12dd\u121b\u127d \u12ed\u120d\u121b \u12f5\u134d\u1295 \u12d3\u1208\u121d \u12e8\u12a0\u12e8\u122d \u121b\u1228\u134a\u12eb",
+        "iata": "DIR",
+        "icao": "HADR",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.8540927,
+          9.6247585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berbera Airport \u0645\u0637\u0627\u0631 \u0628\u0631\u0628\u0631\u0629",
+        "iata": "BBO",
+        "icao": "HCMI",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.939251,
+          10.3869753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burao Airport \u0645\u0637\u0627\u0631 \u0628\u0631\u0639\u0648",
+        "iata": "BUO",
+        "icao": "HCMV",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5590333,
+          9.5331689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Semera Airport",
+        "iata": "SZE",
+        "icao": "HASM",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.9887332,
+          11.7906068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jijiga Airport",
+        "iata": "JIJ",
+        "icao": "HAJJ",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9126032,
+          9.3334946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bu'aale Airfield",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5876598,
+          1.2676785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Egal International Airport \u0645\u0637\u0627\u0631 \u0647\u0631\u062c\u064a\u0633\u0627",
+        "iata": "HGA",
+        "icao": "HCMH",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.08415,
+          9.5127984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A\u00e9rodrome d'Obock \u0645\u0637\u0627\u0631 \u0623\u0628\u062e",
+        "iata": "OBC",
+        "icao": "HDOB",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.2788549,
+          11.9683647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bender Qassim International Airport",
+        "iata": "BSA",
+        "icao": "HCMF",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1355235,
+          11.2777198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adado Airport",
+        "iata": "AAD",
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6378751,
+          6.0964677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guriel Airport",
+        "iata": "GUO",
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.9853078,
+          5.3174123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.0635745,
+          11.5911616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hafun Old Base Airstrip",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3250695,
+          10.4150931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hafun Airstrip",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.2470606,
+          10.4454097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hulughu Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0458062,
+          -1.1481595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garoonka Caalamiga Ee Aadan Cadde \u0645\u0637\u0627\u0631 \u0622\u062f\u0645 \u0639\u062f\u064a \u0627\u0644\u062f\u0648\u0644\u064a",
+        "iata": "MGQ",
+        "icao": "HCMM",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3040571,
+          2.0141572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abdullahi Yusef International Airport \u0645\u0637\u0627\u0631 \u0639\u0628\u062f \u0627\u0644\u0644\u0647 \u064a\u0648\u0633\u0641",
+        "iata": "GLK",
+        "icao": "HCMR",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.4551843,
+          6.7802083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A\u00e9roport International de Djibouti-Ambouli \u0645\u0637\u0627\u0631 \u062c\u064a\u0628\u0648\u062a\u064a \u0627\u0644\u062f\u0648\u0644\u064a",
+        "iata": "JIB",
+        "icao": "HDAM",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1591386,
+          11.5470652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Base A\u00e9rienne de Chabelley \u0645\u0637\u0627\u0631 \u0634\u0627\u0628\u0644\u064a",
+        "iata": null,
+        "icao": "HDHC",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.0621309,
+          11.5179678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A\u00e9rodrome de Dikhil \u0645\u0637\u0627\u0631 \u062f\u062e\u064a\u0644",
+        "iata": null,
+        "icao": "HDDK",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.3504109,
+          11.0979397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A\u00e9rodrome de Yoboki \u0645\u0637\u0627\u0631 \u064a\u0648\u0628\u0648\u0643\u064a",
+        "iata": null,
+        "icao": "HDYO",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.0903818,
+          11.4914686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Base des Forces Japonaises d'Autod\u00e9fense \u00e0 Djibouti \u0642\u0627\u0639\u062f\u0629 \u0642\u0648\u0627\u062a \u0627\u0644\u062f\u0641\u0627\u0639 \u0627\u0644\u0630\u0627\u062a\u064a \u0627\u0644\u064a\u0627\u0628\u0627\u0646\u064a\u0629 \u0641\u064a \u062c\u064a\u0628\u0648\u062a\u064a",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1452874,
+          11.5532946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "K50 Airport \u0645\u0637\u0627\u0631 \u0643\u0665\u0660",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9871579,
+          2.0055566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A\u00e9rodrome de Tadjoura \u0645\u0637\u0627\u0631 \u062a\u0627\u062c\u0648\u0631\u0629",
+        "iata": "TDJ",
+        "icao": "HDTJ",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9177763,
+          11.7875337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "General Caydiid Airport",
+        "iata": "CMO",
+        "icao": "HCMO",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.515056,
+          5.3571721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "As Eyla",
+        "iata": null,
+        "icao": "HDAE",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.0862144,
+          10.9877633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A\u00e9rodrome d'Ali Sabieh \u0645\u0637\u0627\u0631 \u0639\u0644\u064a \u0635\u0628\u064a\u062d",
+        "iata": "AII",
+        "icao": "HDAS",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.7200473,
+          11.1476372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.0739016,
+          11.3199041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gode Airport",
+        "iata": "GDE",
+        "icao": "HAGO",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5777432,
+          5.9341398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Afmadow Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.0563715,
+          0.537577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhuusamareeb Airport \u0645\u0637\u0627\u0631 \u062f\u0648\u0633\u0645\u0631\u064a\u0628",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.3604495,
+          5.4726975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ceel Waaq Airfield",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.0086984,
+          2.772998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.3118898,
+          2.3304632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalabaydh Airport",
+        "iata": null,
+        "icao": "HCKB",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.4745939,
+          9.6912373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old Abudwaq Runway",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.2221971,
+          6.3044623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kabri Dehar Airport",
+        "iata": "ABK",
+        "icao": "HAKD",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2414118,
+          6.7315832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6080219,
+          4.0278132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galdogob International Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.0167656,
+          6.9545378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oshaco International Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.4032158,
+          6.6917329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ismail Mire Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.3794546,
+          8.2185359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dolow Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.079965,
+          4.1476612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qardho Airport \u0645\u0637\u0627\u0631 \u0642\u0631\u0636\u0648",
+        "iata": "GSR",
+        "icao": "HCMG",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1175452,
+          9.5426682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boorama International Airport \u0645\u0637\u0627\u0631 \u0628\u0648\u0631\u0627\u0645\u0627",
+        "iata": "BXX",
+        "icao": "HCBM",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1490127,
+          9.9457012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shilabo Airport",
+        "iata": "HIL",
+        "icao": "HASL",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7638898,
+          6.0776779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4693178,
+          2.8861793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ballidogle Airbase",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7925096,
+          2.6653291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belet Uen Airport \u0645\u0637\u0627\u0631 \u0628\u0644\u062f \u0648\u064a\u0646",
+        "iata": null,
+        "icao": "HCMN",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.2395365,
+          4.766536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garowe Airport \u0645\u0637\u0627\u0631 \u063a\u0627\u0631\u0648\u064a",
+        "iata": "GGR",
+        "icao": "HCGR",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5687888,
+          8.4588335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1766953,
+          3.2170986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Daynile Airport \u0645\u0637\u0627\u0631 \u062f\u064a\u0646\u064a\u0644",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.2689111,
+          2.1221921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cisaleey Airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.488665,
+          2.1177346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baidoa Airport \u0645\u0637\u0627\u0631 \u0628\u064a\u062f\u0648\u0627",
+        "iata": "BIB",
+        "icao": "HCMB",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.6294764,
+          3.1035606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kismayo International Airport",
+        "iata": "KMU",
+        "icao": "HCMK",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.4597573,
+          -0.3772865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dooy International Airport \u0645\u0637\u0627\u0631 \u062f\u0648\u064a \u0627\u0644\u062f",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9711308,
+          2.4299528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waajid airfield \u0645\u0637\u0627\u0631 \u0648\u0627\u0627\u062c\u064a\u062f",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.2480667,
+          3.8287827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ali Adan airport",
+        "iata": null,
+        "icao": null,
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4958842,
+          3.9958715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luuq Airfield \u0645\u0637\u0627\u0631 \u0644\u0648\u0642",
+        "iata": "LGX",
+        "icao": "HCMJ",
+        "type": "unknown",
+        "aeroway": "aerodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5461973,
+          3.8123006
+        ]
+      }
+    }
+  ]
+}
