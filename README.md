@@ -5,7 +5,7 @@
 ![Made in Somalia](https://img.shields.io/badge/Made%20in-Somalia-blue?style=for-the-badge&logo=somalia)
 
 **By [Abdirahman Ahmed (Maano)](https://github.com/abdirahmannomad)**  
-*"Faaninta aqoonta iyo xogta Soomaaliyeed ee furan."*  
+*"Faafinta aqoonta, iyo xogta Soomaliyeed ee furan."*  
 (Open Somali Data Initiative)
 
 > The first open geographic API for Somalia — mapping regions, districts, roads, ports, and postal codes.  
