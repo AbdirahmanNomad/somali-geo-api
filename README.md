@@ -115,6 +115,29 @@ with Session(engine) as db:
 
 ### Core Endpoints
 
+#### Bulk Export (GeoJSON)
+```bash
+# Regions
+curl "http://localhost:8000/api/v1/regions/export" -o regions.geojson
+# Districts
+curl "http://localhost:8000/api/v1/districts/export" -o districts.geojson
+# Roads
+curl "http://localhost:8000/api/v1/roads/export" -o roads.geojson
+```
+
+#### Paged GeoJSON
+```bash
+curl "http://localhost:8000/api/v1/roads?format=geojson&limit=10"
+```
+
+#### Nearby Queries
+```bash
+# Roads within 5km of Mogadishu Port
+curl "http://localhost:8000/api/v1/roads/nearby?lat=2.0469&lon=45.3182&radius_km=5"
+# Districts (places) within 10km of Mogadishu Port
+curl "http://localhost:8000/api/v1/places/nearby?lat=2.0469&lon=45.3182&radius_km=10"
+```
+
 #### Administrative Boundaries
 
 ```http
