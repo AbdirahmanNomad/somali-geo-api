@@ -87,6 +87,22 @@ uvicorn app.main:app --reload
 
 The API will be available at `http://localhost:8000`
 
+### Optional: Simple Viewer (static)
+
+- A minimal static viewer is included to test and visualize endpoints quickly.
+- Location: `frontend/simple`
+
+Run locally:
+```bash
+cd frontend/simple
+python3 -m http.server 8080
+# open http://127.0.0.1:8080
+```
+
+Notes:
+- CORS is already configured to allow http://localhost:8080 during local development.
+- Use the endpoint dropdown, filters, and the Location Codes panel to test the API.
+
 ### Quick Data Verification
 
 After loading data, verify what's loaded:
@@ -124,6 +140,43 @@ curl "http://localhost:8000/api/v1/districts/export" -o districts.geojson
 # Roads
 curl "http://localhost:8000/api/v1/roads/export" -o roads.geojson
 ```
+
+## 🗺️ Spatial (PostGIS) Migration Plan
+
+This project runs on SQLite by default. To enable spatial queries (nearby, within polygon), migrate to PostGIS:
+
+1. Provision PostgreSQL with PostGIS extension.
+2. Set environment variables in `.env`:
+   - `DATABASE_URL=postgresql+psycopg://USER:PASSWORD@HOST:PORT/DBNAME`
+3. Run Alembic migrations (or re-run loaders to populate PostGIS).
+4. Replace Haversine approximations with ST_DWithin/ST_Contains queries in `/roads/nearby` and future polygon endpoints.
+
+## ⚙️ Performance & Caching
+
+- In-memory caching is enabled for hot endpoints scaffold (can be swapped to Redis).
+- Redis plan:
+  - Add `REDIS_URL=redis://localhost:6379/0` to `.env`
+  - Replace in-memory cache with Redis client in `app/core/cache.py`.
+
+## 🔒 Security & CI
+
+- Secrets: never use defaults in production.
+  - Set `SECRET_KEY`, `FIRST_SUPERUSER`, `FIRST_SUPERUSER_PASSWORD` in `.env`.
+- CI matrix:
+  - Align Node to v25 and pin Python (e.g., 3.11.x) in workflows.
+  - Build backend and frontend; run endpoint tests.
+- Rate limiting: optional middleware scaffold added; enable via dependency if needed.
+
+## 🧪 Tests
+
+- Endpoint tests: add coverage for regions/districts/roads/transport/locationcode.
+- Loader tests: verify counts and Somalia-only filters (bbox/polygon).
+- Manual checks:
+  - `/api/v1/regions/export` → 36 features
+  - `/api/v1/districts/export` → 148 features
+  - `/api/v1/roads/export` → 26,046 features
+  - `/api/v1/roads/nearby?lat=2.0469&lon=45.3182&radius_km=5` → should return results
+
 
 #### Paged GeoJSON
 ```bash

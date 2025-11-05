@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Somalia Geography & Governance API</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>🇸🇴 Somalia Geography & Governance API</header>
+  <div id="controls">
+    <label>
+      Endpoint:
+      <select id="endpoint">
+        <option value="regions">Regions</option>
+        <option value="districts">Districts</option>
+        <option value="roads">Roads</option>
+        <option value="airports">Airports</option>
+        <option value="ports">Ports</option>
+        <option value="checkpoints">Checkpoints</option>
+      </select>
+    </label>
+    <input type="text" id="search" placeholder="Search name..." />
+    <select id="regionFilter" class="hidden">
+      <option value="">All regions</option>
+    </select>
+    <select id="typeFilter" class="hidden">
+      <option value="">All types</option>
+    </select>
+    <button id="fetchBtn">Fetch Data</button>
+    <span id="status"></span>
+  </div>
+
+  <div id="tools">
+    <fieldset>
+      <legend>Location Codes</legend>
+      <div class="row">
+        <input type="number" id="lcLat" placeholder="lat" step="any" />
+        <input type="number" id="lcLon" placeholder="lon" step="any" />
+        <button id="lcGenBtn" title="Generate PlusCode from lat/lon">Generate</button>
+      </div>
+      <div class="row">
+        <input type="text" id="lcCode" placeholder="PlusCode (e.g., 8FJ53+PM)" />
+        <button id="lcResolveBtn" title="Resolve PlusCode to lat/lon">Resolve</button>
+      </div>
+    </fieldset>
+  </div>
+
+  <div id="content">
+    <div id="map"></div>
+    <div id="side">
+      <div id="stats"></div>
+      <pre id="output"></pre>
+    </div>
+  </div>
+
+  <footer>Built by Abdirahman Ahmed (Maano)</footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Auto-fetch initial view
+    window.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('fetchBtn').click();
+    });
+  </script>
+</body>
+<!-- Works as a static file: open this file in the browser. Assumes FastAPI at http://localhost:8000 -->
+</html>
+
+
