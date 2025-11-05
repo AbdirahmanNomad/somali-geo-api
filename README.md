@@ -102,6 +102,14 @@ python3 -m http.server 8080
 Notes:
 - CORS is already configured to allow http://localhost:8080 during local development.
 - Use the endpoint dropdown, filters, and the Location Codes panel to test the API.
+- Viewer features: region/type filters, pagination (skip/limit), marker clustering for transport layers.
+
+### Local Auto-Cleanup (transport data)
+
+- In local environment, the backend auto-runs a light data cleanup on startup:
+  - Assigns `region` for checkpoints, airports, and ports via point-in-polygon against region polygons
+  - Removes transport points outside Somalia polygons
+- This keeps results Somalia-only and labeled, without PostGIS. For production-scale spatial queries, migrate to PostGIS.
 
 ### Quick Data Verification
 
