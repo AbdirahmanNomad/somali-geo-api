@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "name": "Scusciuban Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "CMS",
+    "icao": "HCMS",
+    "lat": 10.3138392,
+    "lon": 50.2032001
+  },
+  {
+    "id": 2,
+    "name": "Bardera Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "BSY",
+    "icao": "HCMD",
+    "lat": 2.3328283,
+    "lon": 42.3094194
+  },
+  {
+    "id": 8,
+    "name": "مطار كاندالة",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "CXN",
+    "icao": "HCMC",
+    "lat": 11.4957059,
+    "lon": 49.9105124
+  },
+  {
+    "id": 15,
+    "name": "Eyl Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "HCM",
+    "icao": "HCME",
+    "lat": 8.1076814,
+    "lon": 49.8246582
+  },
+  {
+    "id": 17,
+    "name": "Las Khoreh Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "LKR",
+    "icao": "",
+    "lat": 11.1707986,
+    "lon": 48.2080558
+  },
+  {
+    "id": 18,
+    "name": "Garbaharey Airfield",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "GBM",
+    "icao": "",
+    "lat": 3.3226676,
+    "lon": 42.2127663
+  },
+  {
+    "id": 21,
+    "name": "Las Anod Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "",
+    "icao": "HCMP",
+    "lat": 8.5661591,
+    "lon": 47.3428241
+  },
+  {
+    "id": 34,
+    "name": "Berbera Airport مطار بربرة",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "BBO",
+    "icao": "HCMI",
+    "lat": 10.3869753,
+    "lon": 44.939251
+  },
+  {
+    "id": 35,
+    "name": "Burao Airport مطار برعو",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "BUO",
+    "icao": "HCMV",
+    "lat": 9.5331689,
+    "lon": 45.5590333
+  },
+  {
+    "id": 38,
+    "name": "Egal International Airport مطار هرجيسا",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "HGA",
+    "icao": "HCMH",
+    "lat": 9.5127984,
+    "lon": 44.08415
+  },
+  {
+    "id": 40,
+    "name": "Bender Qassim International Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "BSA",
+    "icao": "HCMF",
+    "lat": 11.2777198,
+    "lon": 49.1355235
+  },
+  {
+    "id": 41,
+    "name": "Adado Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "AAD",
+    "icao": "",
+    "lat": 6.0964677,
+    "lon": 46.6378751
+  },
+  {
+    "id": 42,
+    "name": "Guriel Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "GUO",
+    "icao": "",
+    "lat": 5.3174123,
+    "lon": 45.9853078
+  },
+  {
+    "id": 47,
+    "name": "Garoonka Caalamiga Ee Aadan Cadde مطار آدم عدي الدولي",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "MGQ",
+    "icao": "HCMM",
+    "lat": 2.0141572,
+    "lon": 45.3040571
+  },
+  {
+    "id": 48,
+    "name": "Abdullahi Yusef International Airport مطار عبد الله يوسف",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "GLK",
+    "icao": "HCMR",
+    "lat": 6.7802083,
+    "lon": 47.4551843
+  },
+  {
+    "id": 56,
+    "name": "General Caydiid Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "CMO",
+    "icao": "HCMO",
+    "lat": 5.3571721,
+    "lon": 48.515056
+  },
+  {
+    "id": 65,
+    "name": "Kalabaydh Airport",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "",
+    "icao": "HCKB",
+    "lat": 9.6912373,
+    "lon": 43.4745939
+  },
+  {
+    "id": 73,
+    "name": "Qardho Airport مطار قرضو",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "GSR",
+    "icao": "HCMG",
+    "lat": 9.5426682,
+    "lon": 49.1175452
+  },
+  {
+    "id": 74,
+    "name": "Boorama International Airport مطار بوراما",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "BXX",
+    "icao": "HCBM",
+    "lat": 9.9457012,
+    "lon": 43.1490127
+  },
+  {
+    "id": 78,
+    "name": "Belet Uen Airport مطار بلد وين",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "",
+    "icao": "HCMN",
+    "lat": 4.766536,
+    "lon": 45.2395365
+  },
+  {
+    "id": 79,
+    "name": "Garowe Airport مطار غاروي",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "GGR",
+    "icao": "HCGR",
+    "lat": 8.4588335,
+    "lon": 48.5687888
+  },
+  {
+    "id": 83,
+    "name": "Baidoa Airport مطار بيدوا",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "BIB",
+    "icao": "HCMB",
+    "lat": 3.1035606,
+    "lon": 43.6294764
+  },
+  {
+    "id": 88,
+    "name": "Luuq Airfield مطار لوق",
+    "region": "Unknown",
+    "type": "international",
+    "iata": "LGX",
+    "icao": "HCMJ",
+    "lat": 3.8123006,
+    "lon": 42.5461973
+  }
+]

@@ -20,9 +20,9 @@ An open-source, production-ready API providing Somali geographic and infrastruct
 - ✅ **36 Regions** (GADM - Administrative Boundaries)
 - ✅ **148 Districts** (GADM - Administrative Boundaries)
 - ✅ **26,046 Roads** (OpenStreetMap - Major cities road network)
-- ✅ **59 Airports** (OpenStreetMap - **Somalia only**, verified and cleaned)
+- ✅ **23 Airports** (OpenStreetMap - **Somalia only**, verified and cleaned)
 - ✅ **8 Ports** (Major Somali ports: Mogadishu, Berbera, Bosaso, Kismayo, Merca, Hobyo, Garacad, Las Khorey)
-- ✅ **46 Checkpoints** (OpenStreetMap - **Somalia only**, filtered)
+- ✅ **17 Checkpoints** (OpenStreetMap - **Somalia only**, filtered)
 
 **✅ All data filtered to Somalia bounding box** - No non-Somalia locations included.
 
@@ -35,7 +35,7 @@ This API serves Somali geographic and governance data in clean, structured, and 
 - 🗺️ **Administrative Boundaries**: 36 regions, 148 districts with full GeoJSON geometries
 - 🧭 **Postal Codes**: Google Open Location Code (PlusCodes) with Somali region prefixes
 - 🛣️ **Road Infrastructure**: 26,046+ roads from OpenStreetMap (major cities)
-- ✈️ **Transport**: 59 verified airports, 8 major Somali ports, 46 checkpoints (all Somalia only)
+- ✈️ **Transport**: 23 verified airports, 8 major Somali ports, 17 checkpoints (all Somalia only)
 - 🔍 **Search**: Fuzzy place name search with aliases
 - 📊 **Open Data**: All data served as GeoJSON with ODbL licensing
 
@@ -346,7 +346,7 @@ backend/
 ✅ Ports:          8   (Major Somali Ports: Mogadishu, Berbera, Bosaso, Kismayo, Merca, Hobyo, Garacad, Las Khorey)
 ✅ Checkpoints:    46  (OpenStreetMap - Somalia Only, Filtered ✓)
 ─────────────────────────────────────────────────────────────
-📊 TOTAL:    26,343   Real Somalia Geographic Items
+📊 TOTAL:    26,278   Real Somalia Geographic Items
 ```
 
 **✅ All data is filtered to Somalia bounding box:**
